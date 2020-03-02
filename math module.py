@@ -21,7 +21,10 @@ print("Employee Name:",ename)
 print("Employee salary:",esal)
 print("Employee address:",eadder)
 print("Employee married:",married)
-
 ##
 a,b=[int(x) for x  in input("Enter two stings :").split()]
 print("the product is :",a*b)
+#split can take space as seperator but we have to provide some thing to it
+#float
+a,b=[float(x) for x in input("enter two numbers:").split(',')]
+print("the product is:",a*b)
