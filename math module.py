@@ -28,3 +28,7 @@ print("the product is :",a*b)
 #float
 a,b=[float(x) for x in input("enter two numbers:").split(',')]
 print("the product is:",a*b)
+#eval() eval function take values as string and evaluates the result
+e=eval(input("Enter any expression"))
+print(e)
+#eval() can evalutes the input to a list tuple set etc based on provided  input
