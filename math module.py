@@ -21,3 +21,7 @@ print("Employee Name:",ename)
 print("Employee salary:",esal)
 print("Employee address:",eadder)
 print("Employee married:",married)
+
+##
+a,b=[int(x) for x  in input("Enter two stings :").split()]
+print("the product is :",a*b)
