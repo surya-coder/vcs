@@ -32,4 +32,8 @@ print(a is not b)
 x="hello python aspirent"
 print('h'in x)
 print('d'not in x)
+#Operator precedence
+#if multiple operators present then which oparator will be evaluted first decided by opearator precedence
+#->()parenenthese , ** exponential , ~- bitwise complement and unary minus opearator , *%/ // multification , modulo division floor division , + - --> addition substraction  <<, lef shift >> right shift , & bitwise and , ^ bitwise Xor  | bitwise OR  > < >= <= != == relational or comarision opearators = += -= *= Assignment opearoator is , is not -->identity opearators  in not in men=mbership opearators  not logical not  and logical and or logical or
+
 
