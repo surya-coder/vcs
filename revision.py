@@ -25,4 +25,11 @@ a=10
 b=10
 print(a is b)
 print(a is not b)
+####
+#membership operator
+#returns true if the given object present in the specified collection (it may be string, list,tuple,Dict)
+#in, not in
+x="hello python aspirent"
+print('h'in x)
+print('d'not in x)
 
