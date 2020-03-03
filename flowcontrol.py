@@ -16,4 +16,11 @@ for x in range(21):
 for x in range(10,0,-1):
     if (x%2!=0):
         print(x)
+#to print sum of numbers present inside list
+d=eval(input("Enter numbers:"))
+sum=0
+for x in d:
+    print("the sum is",sum+x)
+    sum=sum+x
+
 
