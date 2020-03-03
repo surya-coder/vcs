@@ -6,3 +6,14 @@ i=0
 for x in s:
     print("the charcter present at",i,"index is:",x)
     i=i+1
+for t in range(10):
+    print("surya")
+for x in range(11):
+    print(x)
+for x in range(21):
+    if (x%2!=0):
+        print(x)
+for x in range(10,0,-1):
+    if (x%2!=0):
+        print(x)
+
