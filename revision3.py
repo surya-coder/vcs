@@ -13,3 +13,12 @@ for item in cart:
         print("insurence must be required",item)
         continue
     print(item)
+
+numbers = eval(input("Enter some numbers:"))
+for n in numbers:
+    if n == 0:
+        print("We can't do it because',it iwill raise zerodivisable error..!!", n)
+        continue
+    print("100/{}={}".format(n, 100 / n))
+
+
