@@ -21,4 +21,17 @@ for n in numbers:
         continue
     print("100/{}={}".format(n, 100 / n))
 
+# loop with else block: if break statement not executed then with out break statement remaining statements will be executed from else block..!
+cart = eval(input("Enter prizes of the items:"))
+for item in cart:
+    if item > 70:
+        print("we cant process this item:")
+        break
+        print(item)
+    else:
+        print("Congrats item {0} processed suceusfully..!".format(item))
+        print(item)
+
+
+
 
