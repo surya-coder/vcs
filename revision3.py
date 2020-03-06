@@ -32,6 +32,10 @@ for item in cart:
         print("Congrats item {0} processed suceusfully..!".format(item))
         print(item)
 
+#repeat the code for every item in the sequence
+##repeat the code as long as condition iis true
+
+
 
 
 
